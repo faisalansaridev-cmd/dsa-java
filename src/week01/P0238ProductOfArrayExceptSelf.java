@@ -3,7 +3,7 @@ package week01;
 // LC 238 Product of Array Except Self
 // Pattern: Prefix x suffix
 // Time O(n) Space O(1)
-// Medium 9 Oct 2026
+// Medium 6 Oct 2026
 // Signal: "Build left prefix directly in output array, then multiply right suffix backwards."
 // Solved: Solved
 

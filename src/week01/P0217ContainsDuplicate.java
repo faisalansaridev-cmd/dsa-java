@@ -1,5 +1,7 @@
 package week01;
 
+import java.util.HashSet;
+
 // LC 217 Contains Duplicate
 // Pattern: hash set membership
 // Time O(n) Space O(n)

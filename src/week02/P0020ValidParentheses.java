@@ -4,6 +4,9 @@
 // Easy 22 Oct 2026
 // Signal: "Use ArrayDeque for stacks. Extract pop() to a variable before comparing. Return stack.isEmpty() at the end to catch leftover brackets."
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 class Solution {
     public boolean isValid(String s) {
         Deque<Character> stack = new ArrayDeque<>();

@@ -5,6 +5,8 @@
 // Signal: "Check containsValue before inserting a new key to prevent two different keys from mapping to the exact same value."
 // Solved: with hint
 
+import java.util.HashMap;
+
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         HashMap<Character, Character> map = new HashMap<>();

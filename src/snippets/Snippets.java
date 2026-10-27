@@ -1,7 +1,11 @@
 package snippets;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Snippets {
     // Frequency Counting
@@ -16,7 +20,7 @@ public class Snippets {
     Map<String, List<String>> groups = new HashMap<>();
     char[] cs = word.toCharArray(); Arrays.sort(cs);()
     groups.computeIfAbsent(new String(cs), k -> new ArrayList?<>()).add(word);
-    List<List<String>> result = new ArrayList<>(groups.value());
+    List<List<String>> result = new ArrayList<>(groups.values());
 
     
     // Strings & StringBuilder
